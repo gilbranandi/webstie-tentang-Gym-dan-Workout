@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seputar Tentang GYM dan WORKOUT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('gym-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            margin-bottom: 50px;
+        }
+        .contact-form {
+            background: rgba(255,255,255,0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .social-icons a:hover {
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+        }
+        .btn-primary {
+            background: linear-gradient(45deg, #007bff, #00bcd4);
+            border: none;
+            transition: transform 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="https://img.icons8.com/ios-filled/50/dumbbell.png" alt="Logo" width="30" class="me-2 animate__animated animate__swing">
+                <span>GYM & WORKOUT</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <i class="bi bi-house-door-fill me-1"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index2.html">
+                            <i class="bi bi-barbell me-1"></i>Gym
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-person-fill me-1"></i>Workout
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-three-dots me-1"></i>Lainnya
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="index4.html">Tips</a></li>
+                            <li><a class="dropdown-item" href="index5.html">Jadwal Latihan</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="index6.html">Kontak Kami</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 animate__animated animate__fadeIn">WORKOUT</h1>
+            <p class="lead animate__animated animate__fadeIn">Latihan fisik untuk meningkatkan kebugaran dan kesehatan tubuh</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h2 class="card-title mb-4">Manfaat Workout</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">• Membentuk jasmani dan rohani yang sehat</li>
+                            <li class="list-group-item">• Menjaga kesehatan tubuh</li>
+                            <li class="list-group-item">• Mengurangi stres pada pikiran</li>
+                            <li class="list-group-item">• Menyegarkan tubuh</li>
+                            <li class="list-group-item">• Menurunkan/menambah berat badan</li>
+                            <li class="list-group-item">• Melatih seluruh otot tubuh</li>
+                            <li class="list-group-item">• Meningkatkan massa otot tubuh</li>
+                            <li class="list-group-item">• Memperindah bentuk tubuh</li>
+                            <li class="list-group-item">• Membentuk tubuh yang ideal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h2 class="card-title mb-4">Jenis Latihan Workout</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">• Latihan kardiovaskular (lari, bersepeda, berenang)</li>
+                            <li class="list-group-item">• Latihan kekuatan dengan beban</li>
+                            <li class="list-group-item">• Latihan fleksibilitas dan keseimbangan (yoga/pilates)</li>
+                            <li class="list-group-item">• Back lift</li>
+                            <li class="list-group-item">• Slide plank</li>
+                            <li class="list-group-item">• Push-up</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow">
+            <div class="card-body">
+                <h3 class="card-title mb-4">Workout Sebagai Gaya Hidup Modern</h3>
+                <p class="card-text">Workout telah menjadi gaya hidup baru yang semakin digandrungi. Latihan fisik secara rutin dapat merangsang berbagai senyawa kimia dalam otak untuk merasa lebih bahagia. Workout di rumah dapat membuat Anda menghemat waktu dan biaya. Tidak hanya itu, gerakan-gerakan yang dilakukan pun tidaklah sulit. Hal inilah yang menyebabkan aktivitas workout cukup banyak digemari saat ini.</p>
+                <p class="card-text">Berdasarkan hasil riset dari Goldman Sach yang menyebutkan bahwa generasi milenial saat ini tertarik dengan gaya hidup sehat seperti berolahraga dan konsumsi makanan sehat. Setiap orang yang menjalani workout tentu memiliki tujuan yang berbeda-beda. Meski begitu, kebanyakan dari mereka menginginkan untuk mendapatkan tubuh yang sehat juga ideal.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <h5 class="animate__animated animate__pulse animate__infinite" 
+                style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                Terus Berolahraga, Menuju Hidup Sehat!
+            </h5>
+            <p style="font-family: 'Times New Roman', Times, serif;">
+                © 2024 GYM & Workout Enthusiast. Semua hak dilindungi. <br>
+                Dibuat dengan <span class="text-danger">❤</span> dan 💪
+            </p>
+            <div class="social-icons d-flex justify-content-center">
+                <a href="https://www.instagram.com" target="_blank" class="mx-2">
+                    <img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com" target="_blank" class="mx-2">
+                    <img src="https://img.icons8.com/ios-filled/24/ffffff/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="mx-2">
+                    <img src="https://img.icons8.com/ios-filled/24/ffffff/twitter-circled.png" alt="Twitter">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

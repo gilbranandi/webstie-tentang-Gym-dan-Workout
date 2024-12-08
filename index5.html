@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Seputar Tentang GYM dan WORKOUT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('gym-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            margin-bottom: 50px;
+            width: 100%;
+        }
+        .contact-form {
+            background: rgba(255,255,255,0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .social-icons a:hover {
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+        }
+        .btn-primary {
+            background: linear-gradient(45deg, #007bff, #00bcd4);
+            border: none;
+            transition: transform 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .table {
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow-x: auto;
+            display: block;
+            width: 100%;
+        }
+        .table thead {
+            background: linear-gradient(45deg, #007bff, #00bcd4);
+            color: white;
+        }
+        h1, h2, h3 {
+            background: linear-gradient(45deg, #007bff, #00bcd4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 30px;
+        }
+        .workout-section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            width: 100%;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            
+            .table {
+                font-size: 14px;
+            }
+            
+            .hero-section {
+                padding: 50px 0;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="https://img.icons8.com/ios-filled/50/dumbbell.png" alt="Logo" width="30" class="me-2 animate__animated animate__swing">
+                <span>GYM & WORKOUT</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <i class="bi bi-house-door-fill me-1"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index2.html">
+                            <i class="bi bi-barbell me-1"></i>Gym
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index3.html">
+                            <i class="bi bi-person-fill me-1"></i>Workout
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-three-dots me-1"></i>Lainnya
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="index4.html">Tips</a></li>
+                            <li><a class="dropdown-item" href="#">Jadwal Latihan</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="index6.html">Kontak Kami</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 mb-4">Jadwal Fitness untuk Pemula [Mudah + Efektif]</h1>
+            <p class="lead">Mulai perjalanan kebugaran Anda dengan jadwal yang terstruktur dan efektif</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="workout-section">
+            <h2 class="text-center mb-4">Contoh Jadwal Gym Pemula</h2>
+            <table class="table table-bordered table-striped text-center">
+                <thead>
+                    <tr>
+                        <th>Minggu</th>
+                        <th>Fokus Latihan</th>
+                        <th>Jadwal</th>
+                        <th>Jenis Latihan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Seluruh tubuh</td>
+                        <td>Senin, Rabu, Jumat atau Selasa, Kamis, Sabtu</td>
+                        <td>Gerakan dasar, tanpa beban berlebihan</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Pemisahan Bagian Tubuh</td>
+                        <td>Senin: Bagian atas, Selasa: Bagian bawah, Kamis: Bagian atas, Jumat: Bagian bawah</td>
+                        <td>Latihan terfokus pada bagian tubuh tertentu</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Meningkatkan Intensitas</td>
+                        <td>6 hari seminggu (1 hari istirahat)</td>
+                        <td>
+                            Hari 1 & 4: Latihan mendorong (trisep, dada, bahu),<br>
+                            Hari 2 & 5: Perut, punggung, biseps,<br>
+                            Hari 3 & 6: Otot bawah (paha, betis, panggul)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Penambahan Intensitas</td>
+                        <td>6 hari seminggu (1 hari istirahat)</td>
+                        <td>Setiap latihan dengan penambahan set atau repetisi, serta peningkatan beban</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="mt-5">
+                <h3>Catatan Penting:</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Intensitas latihan ditingkatkan secara bertahap</li>
+                    <li class="list-group-item">Pemanasan selalu dilakukan sebelum latihan untuk menghindari cedera</li>
+                    <li class="list-group-item">Nutrisi yang seimbang dan hidrasi yang cukup penting untuk mendukung program latihan</li>
+                    <li class="list-group-item">Jangan lupa untuk menikmati setiap prosesnya agar tetap bersemangat</li>
+                </ul>
+            </div>
+
+            <div class="mt-5">
+                <h3>Fitness Tips:</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Untuk pemula, disarankan memulai dengan rutinitas gym 3 hari per minggu, seperti Senin, Rabu, dan Jumat, memberikan waktu untuk pemulihan otot yang penting. Jadwal ini optimal untuk membangun kekuatan dan kebugaran tanpa menyebabkan kelelahan berlebih.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="workout-section">
+            <h2 class="text-center mb-4">Jadwal Workout di Rumah</h2>
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Mengapa Workout di Rumah?</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Fleksibilitas Waktu: Bisa workout kapan saja sesuai jadwal yang diinginkan</li>
+                        <li class="list-group-item">Hemat Biaya: Tidak perlu membayar biaya keanggotaan gym yang relatif mahal</li>
+                        <li class="list-group-item">Privasi: Bisa berlatih tanpa merasa diperhatikan orang lain</li>
+                        <li class="list-group-item">Kenyamanan: Tidak perlu meninggalkan rumah untuk berolahraga</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Jadwal Workout di Rumah:</h3>
+                </div>
+                <div class="card-body">
+                    <div class="accordion" id="workoutAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    Hari 1: Senin - Latihan Kardio
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#workoutAccordion">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Pemanasan (5 menit berjalan di tempat atau skipping)</li>
+                                        <li class="list-group-item">Jumping jacks (3 set x 15 repetisi)</li>
+                                        <li class="list-group-item">High knees (3 set x 20 repetisi)</li>
+                                        <li class="list-group-item">Burpees (3 set x 10 repetisi)</li>
+                                        <li class="list-group-item">Cool down dan stretching (5-10 menit)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Repeat similar accordion items for other days -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <h5>Terus Berolahraga, Menuju Hidup Sehat!</h5>
+            <p>© 2024 GYM & Workout Enthusiast. Semua hak dilindungi.<br>
+                Dibuat dengan 💪 dan semangat!</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank" class="mx-2">
+                    <img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com" target="_blank" class="mx-2">
+                    <img src="https://img.icons8.com/ios-filled/24/ffffff/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="mx-2">
+                    <img src="https://img.icons8.com/ios-filled/24/ffffff/twitter-circled.png" alt="Twitter">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
